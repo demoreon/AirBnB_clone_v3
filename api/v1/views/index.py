@@ -16,7 +16,7 @@ def status():
 
 @app_views.route('/stats', strict_slashes=False)
 def stats():
-    """Retrieve count of objects in storage
+    """Retrieve the count of objects in storage db
     """
     from models.amenity import Amenity
     from models.city import City
