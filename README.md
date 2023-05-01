@@ -126,6 +126,7 @@ TestBaseModel class:
 * `def test_user_module_docstring(self)` - Test for the user.py module docstring
 * `def test_user_class_docstring(self)` - Test for the User class docstring
 
+#### `/api` directory handles all api request
 
 ## Examples of use
 ```
@@ -157,8 +158,7 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 Joann Vuong
-Justin Majetich - [Github](https://github.com/justinmajetich) / [Twitter]((https://twitter.com/JustinMajetich)
-Mitchell Moscovics - [Github](https://github.com/mmoscovics) / 
+Ogundimu Ademola 
 
 ## License
 Public Domain. No copy write protection. 
