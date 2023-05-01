@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the TestFileStorageDocs classes
+This contains the test case to handle file storage
 """
 
 from datetime import datetime
