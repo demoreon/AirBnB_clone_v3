@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This handles all api request for places
+"""This handle all api request for places
 """
 
 from api.v1.views import app_views
