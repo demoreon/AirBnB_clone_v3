@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Places view API request handlers
+"""This handles all api request for places
 """
 
 from api.v1.views import app_views
@@ -16,8 +16,7 @@ from models.amenity import Amenity
                  methods=['POST'],
                  strict_slashes=False)
 def places_search():
-    """Search for place according to parameters
-    in body request
+    """Creation, deletion and updates for places
     """
     # POST REQUEST
     if request.is_json:  # check is request is valid json
