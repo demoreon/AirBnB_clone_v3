@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Routings for amenity-related API requests
+"""This handles all api request for amenties
 """
 
 from api.v1.views import app_views
@@ -11,7 +11,7 @@ from models import storage
 @app_views.route('/amenities/<amenity_id>', methods=['GET', 'DELETE', 'PUT'],
                  strict_slashes=False)
 def amenity_methods(amenity_id=None):
-    """Handle requests to API for amentities
+    """Creation, deletion and updates for amenities
     """
     from models.amenity import Amenity
     amenities = storage.all(Amenity)
