@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Flask web application
+"""A simple Flask application
 """
 
 from flask import Flask, jsonify
@@ -23,7 +23,7 @@ def teardown(error):
 
 @app.errorhandler(404)
 def not_found(error):
-    """Custom 404 error
+    """Custom 404 error handler
     """
     return jsonify({'error': 'Not found'}), 404
 
