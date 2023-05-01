@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A simple Flask application
+"""A very simple flask application
 """
 
 from flask import Flask, jsonify
@@ -16,14 +16,14 @@ CORS(app, resources={r"/*": {"origins": "0.0.0.0"}})
 
 @app.teardown_appcontext
 def teardown(error):
-    """Clean-up method
+    """This ia a Clean-up method
     """
     storage.close()
 
 
 @app.errorhandler(404)
 def not_found(error):
-    """Custom 404 error handler
+    """A Custom 404 error handler
     """
     return jsonify({'error': 'Not found'}), 404
 
