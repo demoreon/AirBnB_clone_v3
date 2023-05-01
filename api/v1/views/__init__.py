@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Initialize module
+"""Initialization and import blueprint
 """
 
 from flask import Blueprint
