@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""New view for Review objects that handles all default RestFul API actions
+"""This handles all api request for place review
 """
 
 from api.v1.views import app_views
@@ -13,7 +13,7 @@ from models.user import User
 @app_views.route('/places/<place_id>/reviews', methods=['GET', 'POST'],
                  strict_slashes=False)
 def review_methods(place_id):
-    """Calls method for Review object with place_id"""
+    """Creation, deletion and updates for place review"""
     reviews = storage.all(Review)
     places = storage.all(Place)
 
