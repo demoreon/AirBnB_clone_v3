@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""View to handle API actions related to User objects
+"""This handles all api request for users
 """
 
 from api.v1.views import app_views
@@ -11,8 +11,7 @@ from models import storage
 @app_views.route('/users/<user_id>', methods=['GET', 'DELETE', 'PUT'],
                  strict_slashes=False)
 def users_method(user_id=None):
-    """Manipulate User object by user_id, or all objects if
-    user_id is None
+    """Creation, deletion and updates for users
     """
     from models.user import User
     users = storage.all(User)
