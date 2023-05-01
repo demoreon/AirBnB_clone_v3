@@ -159,6 +159,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 Joann Vuong
 Ogundimu Ademola 
+Dolapo Adegoju
 
 ## License
 Public Domain. No copy write protection. 
