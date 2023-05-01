@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""New view for City objects that handles all default RestFul API actions
+"""This is a City objects that handles all default RestFul API actions
 """
 
 from api.v1.views import app_views
