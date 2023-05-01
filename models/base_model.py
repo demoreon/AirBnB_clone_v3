@@ -59,7 +59,7 @@ class BaseModel:
         models.storage.save()
 
     def to_dict(self, save_check=False):
-        """returns a dictionary containing all keys/values of the instance"""
+        """This improves the security"""
         new_dict = self.__dict__.copy()
         if "created_at" in new_dict:
             new_dict["created_at"] = new_dict["created_at"].strftime(time)
